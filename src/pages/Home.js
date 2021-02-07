@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 
 import '../styles/pages/Home.css';
 
-
+function sendCEP() {
+    console.log('CEP enviado');
+}
 
 class Home extends Component {
     render() {
@@ -18,9 +20,16 @@ class Home extends Component {
 
                             <h4>Pesquisa pelo seu CEP:</h4>
 
-
                             <div className='formBox'>
-                                <input maxLength='9' number/>
+                                <form action={sendCEP}>
+                                    <input maxLength='9' placeholder='CEP' />
+
+                                    <div className='styleButton'>
+                                        <button type="submit">Enviar</button>
+                                    </div>
+
+                                </form>
+
                             </div>
 
                         </label>
@@ -65,7 +74,9 @@ class Home extends Component {
                             <h5>
                                 siafi:
                             </h5>
+
                         </label>
+
                     </div>
 
                 </div >

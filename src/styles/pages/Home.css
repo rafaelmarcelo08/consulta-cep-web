@@ -1,8 +1,10 @@
+/**Limpando o fluxo padrão da aplicação */
 * {
     margin: 0px;
     padding: 0px;
 }
 
+/**Configuração do container Home */
 #conatainerHome {
     background-color: #191a21;
     height: 100vh;
@@ -29,6 +31,7 @@
 }
 
 .formBox input {
+    margin: 10px;
     border-radius: 9px;
     font-size: 30px;
     padding: 10px;
@@ -46,4 +49,15 @@
 #result h5 {
     margin: 20px 0px;
     text-transform: uppercase;
+}
+
+ .styleButton button {
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 9px;
+    background-color: whitesmoke;
+    color: #191a21;
+    margin: 10px;
+    padding: 10px;
+    border-style: none;
 }
