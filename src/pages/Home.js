@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import '../styles/pages/Home.css';
 
+import InputMask from 'react-input-mask';
+
 function sendCEP() {
     console.log('CEP enviado');
 }
@@ -22,7 +24,8 @@ class Home extends Component {
 
                             <div className='formBox'>
                                 <form action={sendCEP}>
-                                    <input maxLength='9' placeholder='CEP' />
+                                    <InputMask placeholder='CEP' 
+                                    mask='99999-999'/>
 
                                     <div className='styleButton'>
                                         <button type="submit">Enviar</button>
