@@ -24,8 +24,8 @@ class Home extends Component {
 
                             <div className='formBox'>
                                 <form action={sendCEP}>
-                                    <InputMask placeholder='CEP' 
-                                    mask='99999-999'/>
+                                    <InputMask placeholder='CEP'
+                                        mask='99999-999' />
 
                                     <div className='styleButton'>
                                         <button type="submit">Enviar</button>
@@ -37,48 +37,58 @@ class Home extends Component {
 
                         </label>
 
-                        <label id='result'>
-                            <h5>
-                                cep:
-                            </h5>
+                        <div id='resultBox'>
+                            <div>
+                                <h5>cep:</h5>
+                                <label className='result'></label>
+                            </div>
 
-                            <h5>
-                                logradouro:
-                            </h5>
+                            <div>
+                                <h5>logradouro:</h5>
+                                <label className='result'></label>
+                            </div>
 
-                            <h5>
-                                complemento:
-                            </h5>
+                            <div>
+                                <h5>complemento:</h5>
+                                <label className='result'></label>
+                            </div>
 
-                            <h5>
-                                bairro:
-                            </h5>
+                            <div>
+                                <h5>bairro:</h5>
+                                <label className='result'></label>
+                            </div>
 
-                            <h5>
-                                localidade:
-                            </h5>
+                            <div>
+                                <h5>localidade:</h5>
+                                <label className='result'></label>
+                            </div>
 
-                            <h5>
-                                uf:
-                            </h5>
+                            <div>
+                                <h5>uf:</h5>
+                                <label className='result'></label>
+                            </div>
 
-                            <h5>
-                                ibge:
-                            </h5>
+                            <div>
+                                <h5>ibge:</h5>
+                                <label className='result'></label>
+                            </div>
 
-                            <h5>
-                                gia:
-                            </h5>
+                            <div>
+                                <h5>gia:</h5>
+                                <label className='result'></label>
+                            </div>
 
-                            <h5>
-                                ddd:
-                            </h5>
+                            <div>
+                                <h5>ddd:</h5>
+                                <label className='result'></label>
+                            </div>
 
-                            <h5>
-                                siafi:
-                            </h5>
+                            <div>
+                                <h5>siafi:</h5>
+                                <label className='result'></label>
+                            </div>
 
-                        </label>
+                        </div>
 
                     </div>
 
