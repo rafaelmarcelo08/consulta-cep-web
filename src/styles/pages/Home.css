@@ -38,6 +38,9 @@
     border-style: none;
     width: 700px;
     height: 50px;
+    background-color: whitesmoke;
+    color: #191a21;
+    font-weight: bold;
 }
 
 #result {
