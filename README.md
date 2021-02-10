@@ -5,6 +5,29 @@
 ## 💻 Sobre o projeto
 
 
+
+## 🌎 Como é feito a requisição:
+<strong>JSON</strong>
+
+```bash
+URL: viacep.com.br/ws/01001000/json/
+```
+
+    {
+      "cep": "01001-000",
+      "logradouro": "Praça da Sé",
+      "complemento": "lado ímpar",
+      "bairro": "Sé",
+      "localidade": "São Paulo",
+      "uf": "SP",
+      "ibge": "3550308",
+      "gia": "1004",
+      "ddd": "11",
+      "siafi": "7107"
+    }
+    
+A requisição é feita através de uma URL, a mesma será dinâmica, sendo capaz de pesquisar vários CEP. A resposta será entregue no formato JSON, a partir dessa resposta será estruturado os valores nos respectivos lugares do layout da página. 
+
 ## 🛠 Tecnologias
 
 > **Front-End:**
