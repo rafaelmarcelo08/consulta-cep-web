@@ -40,7 +40,7 @@ class Home extends Component {
                         <div id='resultBox'>
                             <div>
                                 <h5>cep:</h5>
-                                <label className='result'></label>
+                                <label className='result'>74715-680</label>
                             </div>
 
                             <div>

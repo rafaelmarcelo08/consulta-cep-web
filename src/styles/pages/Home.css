@@ -11,13 +11,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
 }
 
+/**Configuração do container de busca */
 .searchCEP {
     color: whitesmoke;
     width: 800px;
 }
 
+/**Titulo */
 .searchCEP h1 {
     font-size: 50px;
     font-weight: bolder;
@@ -25,11 +28,13 @@
     margin: 60px 0px;  
 }
 
+/**Texto de pesquisa */
 .searchCEP label h4 {
     font-size: 20px;
     margin: 10px;
 }
 
+/**Configuração do input de pesquisa */
 .formBox input {
     margin: 10px;
     border-radius: 9px;
@@ -43,19 +48,7 @@
     font-weight: bold;
 }
 
-#resultBox {
-    text-align: left;
-    font-size: 20px;
-    font-weight: bolder;
-}
-
-#resultBox div {
-    margin: 20px 0px;
-    font-size: 22px;
-    text-transform: uppercase;
-    display: flex;
-}
-
+/**Configuração do design do botão de pequisa */
 .styleButton button {
     font-size: 30px;
     font-weight: bolder;
@@ -67,9 +60,109 @@
     border-style: none;
 }
 
+/**Configuração do container de caixa de resultados */
+#resultBox {
+    text-align: left;
+    font-weight: bolder;
+}
+
+/**Configuração da DIV de caixa de resultados */
+#resultBox div {
+    margin: 20px 0px;
+    font-size: 22px;
+    text-transform: uppercase;
+    display: flex;
+    padding-left: 15px;
+}
+
+/**Configuração do container de resultados */
 .result {
     text-align: right;
     font-size: 22px;
     width: 100%;
-    padding-right: 60px;
+    padding-right: 40px;
+}
+
+/**RESPOSIVIDADE DA APLICAÇÃO HOME */
+
+/**Resposividade para tablet */
+@media(max-width: 952px) {
+    /**Configuração do container de busca */
+    .searchCEP {
+        width: 500px;
+    }
+
+    /**Titulo */
+    .searchCEP h1 {
+        font-size: 30px;
+    }
+
+    /**Texto de pesquisa */
+    .searchCEP label h4 {
+        font-size: 18px;
+    }
+
+    /**Configuração do input de pesquisa */
+    .formBox input { 
+        width: 500px;
+        height: 35px;
+        font-size: 25px;
+    }
+
+    /**Configuração do design do botão de pequisa */
+    .styleButton button {
+        font-size: 25px;
+    }
+
+    /**Configuração do container de caixa de resultados */
+    .result {
+        font-size: 18px;
+        padding-right: 20px;
+    }  
+
+    /**Configuração da DIV de caixa de resultados */
+    #resultBox div {
+        font-size: 18px;
+    }
+}
+
+/**Resposividade para móvel */
+@media(max-width: 858px) {
+    /**Configuração do container de busca */
+    .searchCEP {
+        width: 400px;
+    }
+
+    /**Titulo */
+    .searchCEP h1 {
+        font-size: 20px;
+    }
+
+    /**Texto de pesquisa */
+    .searchCEP label h4 {
+        font-size: 16px;
+    }
+
+    /**Configuração do input de pesquisa */
+    .formBox input { 
+        width: 300px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    /**Configuração do design do botão de pequisa */
+    .styleButton button {
+        font-size: 18px;
+    }    
+
+    /**Configuração do container de caixa de resultados */    
+    .result {
+        font-size: 16px;
+        padding-right: 15px;
+    }    
+
+    /**Configuração da DIV de caixa de resultados */
+    #resultBox div {
+        font-size: 16px;
+    }
 }
