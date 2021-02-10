@@ -1,4 +1,4 @@
-### [Veja o app rodando](http://consulta-cep-web.herokuapp.com/)
+### [Veja o app rodando](https://consulta-cep-web.herokuapp.com/)
 
 ## Projeto desenvolvido com ReactJS🚀
 
