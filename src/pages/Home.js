@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import '../styles/pages/Home.css';
 
 import InputMask from 'react-input-mask';
+import Footer from '../components/Footer';
 
 function sendCEP() {
 
@@ -120,6 +121,8 @@ class Home extends Component {
                     </div>
 
                 </div >
+
+                <Footer />
 
             </>
         );

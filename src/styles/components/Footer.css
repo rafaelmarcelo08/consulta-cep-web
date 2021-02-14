@@ -1,0 +1,87 @@
+/**Limpando o fluxo da aplicação */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/**Configuração padrão do container Footer */
+#containerFooter {
+    background-color: #191a21;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+/**Configuração padrão de redes sociais */
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a { 
+    margin: 0 15px;
+}
+
+.social a img { 
+    width: 45px;
+    height: 45px;
+}
+
+/**Configuração das letras e imagem do Footer.js */
+#developer {
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 18px;
+}
+
+#developer .dev {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.developer-color {
+    color: #50fa7b;
+}
+
+/**RESPOSIVIDADE DA TAG FOOTER */
+
+/**Resposividade para tablet */
+@media(max-width: 952px) {
+    /**Configuração das letras do Footer.js */
+    #developer {
+        font-size: 16px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+    
+    #developer .dev {
+        font-size: 18px;
+    }
+}
+
+/**Resposividade para móvel */
+@media(max-width: 858px) {
+    /**Configuração das letras e imagem do Footer.js */ 
+    #developer {
+        font-size: 14px;
+    }
+
+    .social a img { 
+        width: 40px;
+        height: 40px;
+    }   
+
+    .logo {
+        font-size: 14px;
+    }
+    
+    #developer h5 .dev {
+        font-size: 16px;
+    }
+}
