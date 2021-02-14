@@ -62,7 +62,7 @@ class Home extends Component {
 
                         <div id='resultBox'>
 
-                            <div className='result'>
+                            <div>
                                 <h5>cep:</h5>
                                 <label className='result' id='cep'></label>
                             </div>

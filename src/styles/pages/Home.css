@@ -69,10 +69,14 @@
 /**Configuração da DIV de caixa de resultados */
 #resultBox div {
     margin: 20px 0px;
-    font-size: 22px;
     text-transform: uppercase;
     display: flex;
     padding-left: 15px;
+}
+
+/**Configuração da fonte dos resultados da busca*/
+#resultBox h5 {
+    font-size: 22px;
 }
 
 /**Configuração do container de resultados */
@@ -120,8 +124,8 @@
         padding-right: 20px;
     }  
 
-    /**Configuração da DIV de caixa de resultados */
-    #resultBox div {
+    /**Configuração da fonte dos resultados da busca*/
+    #resultBox h5 {
         font-size: 18px;
     }
 }
@@ -161,8 +165,8 @@
         padding-right: 15px;
     }    
 
-    /**Configuração da DIV de caixa de resultados */
-    #resultBox div {
+    /**Configuração da fonte dos resultados da busca*/
+    #resultBox h5 {
         font-size: 16px;
     }
 }
