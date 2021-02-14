@@ -4,7 +4,6 @@ import '../styles/pages/Home.css';
 
 import InputMask from 'react-input-mask';
 
-
 function sendCEP() {
 
     let cep = document.getElementById('inputcep').value;
@@ -15,20 +14,23 @@ function sendCEP() {
     fetch(`https://viacep.com.br/ws/${cleanCEP}/json/`)
         .then((res) => res.json())
         .then((data) => {
-            document.getElementById('cep').innerHTML = `${data.cep}`;
-            document.getElementById('logradouro').innerHTML = `${data.logradouro}`;
-            document.getElementById('complemento').innerHTML = `${data.complemento}`;
-            document.getElementById('bairro').innerHTML = `${data.bairro}`;
-            document.getElementById('localidade').innerHTML = `${data.localidade}`;
-            document.getElementById('uf').innerHTML = `${data.uf}`;
-            document.getElementById('ibge').innerHTML = `${data.ibge}`;
-            document.getElementById('gia').innerHTML = `${data.gia}`;
-            document.getElementById('ddd').innerHTML = `${data.ddd}`;
-            document.getElementById('siafi').innerHTML = `${data.siafi}`;
+            if (data.erro) {
+                alert('CEP inválido');
+            } else {
+                document.getElementById('cep').innerHTML = `${data.cep}`;
+                document.getElementById('logradouro').innerHTML = `${data.logradouro}`;
+                document.getElementById('complemento').innerHTML = `${data.complemento}`;
+                document.getElementById('bairro').innerHTML = `${data.bairro}`;
+                document.getElementById('localidade').innerHTML = `${data.localidade}`;
+                document.getElementById('uf').innerHTML = `${data.uf}`;
+                document.getElementById('ibge').innerHTML = `${data.ibge}`;
+                document.getElementById('gia').innerHTML = `${data.gia}`;
+                document.getElementById('ddd').innerHTML = `${data.ddd}`;
+                document.getElementById('siafi').innerHTML = `${data.siafi}`;
+            }
         })
-        .catch(e => console.log('Deu erro' + e));
+        .catch(e => console.log('Deu algum erro: ' + e));
 }
-
 
 class Home extends Component {
 
@@ -50,6 +52,7 @@ class Home extends Component {
                                 <InputMask placeholder='CEP'
                                     mask='99999-999'
                                     id='inputcep'
+                                    type='tel'
                                 />
 
                                 <div className='styleButton'>
