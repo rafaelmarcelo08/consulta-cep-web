@@ -2,9 +2,13 @@
 
 ## Projeto desenvolvido com ReactJS🚀
 
-## 💻 Sobre o projeto
+## 📚 Sobre o projeto
 
+O projeto foi desenvolvido na parte de Front-End em ReactJS, no qual, o Front-End consome a API:  [ViaCEP](https://viacep.com.br/)
 
+## 💻 Acessando o webservice de CEP
+
+Para acessar o webservice, um CEP no formato de {8} dígitos deve ser fornecido, por exemplo: "01001000".
 
 ## 🌎 Como é feito a requisição:
 <strong>JSON</strong>
@@ -68,4 +72,4 @@ yarn start
 
 ## 📝 Licença
 
-Este projeto está sobe a licença <strong>Rafael Marcelo</strong>
+Este projeto está sobe a licença de <strong>Rafael Marcelo</strong>
