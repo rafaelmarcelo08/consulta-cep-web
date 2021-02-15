@@ -67,6 +67,10 @@ yarn install
 
 Para rodar a aplicação execute:
 ```bash
+npm start
+```
+ou 
+```bash
 yarn start
 ```
 
