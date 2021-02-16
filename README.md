@@ -6,7 +6,7 @@
 
 O projeto foi desenvolvido na parte de Front-End em ReactJS, no qual, o Front-End consome a API:  [ViaCEP](https://viacep.com.br/)
 
-## 💻 Acessando o webservice de CEP
+## 💻 Para acessar o webservice de CEP
 
 Para acessar o webservice, um CEP no formato de {8} dígitos deve ser fornecido, por exemplo: "01001000".
 
@@ -47,6 +47,12 @@ A requisição é feita através de uma URL, a mesma será dinâmica, sendo capa
 [ReactJS](https://pt-br.reactjs.org/) - O ReactJS ou React é uma biblioteca que permite criar interfaces para web usando JavaScript.
 
 [Heroku](https://www.heroku.com/) - Heroku é uma plataforma em nuvem como um serviço que suporta várias linguagens de programação.
+
+## 🔖 Layout
+
+No link abaixo você encontra o layout do projeto web e também do mobile. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
+
+- [Layout Web](https://www.figma.com/file/sgeb4rEgPUEWtAH2goNolJ/consulte-cep-web?node-id=0%3A1)
 
 ## 🚀 Como executar o projeto
 
