@@ -1,4 +1,4 @@
-### [Veja o app rodando](https://consulta-cep-web.herokuapp.com/)
+### [Veja o app rodando](https://cepconsulta.netlify.app/)
 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/94f8a470-f5dc-4d97-bf4a-2c69e20bec2f/deploy-status)
 
