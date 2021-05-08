@@ -48,7 +48,7 @@ A requisição é feita através de uma URL, a mesma será dinâmica, sendo capa
 
 [ReactJS](https://pt-br.reactjs.org/) - O ReactJS ou React é uma biblioteca que permite criar interfaces para web usando JavaScript.
 
-[Heroku](https://www.heroku.com/) - Heroku é uma plataforma em nuvem como um serviço que suporta várias linguagens de programação.
+[Netlify](https://www.netlify.com/) - A Netlify é uma empresa de computação em nuvem que oferece serviços de hospedagem e back-end sem servidor para aplicativos da Web e sites estáticos.
 
 ## 🔖 Layout
 
