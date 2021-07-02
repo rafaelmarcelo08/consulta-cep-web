@@ -61,7 +61,7 @@ No link abaixo você encontra o layout do projeto web e também do mobile. Lembr
 Para baixar o repositório local: 
 
 ```bash
-git clone
+git clone https://github.com/rafaelmarcelo08/consulta-cep-web.git
 ```
 Para instalar as dependências execulte o comando:
 
