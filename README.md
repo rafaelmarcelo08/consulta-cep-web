@@ -42,7 +42,7 @@ A requisição é feita através de uma URL, a mesma será dinâmica, sendo capa
 > - CSS3
 > - JavaScript
 > - ReactJS
-> - Heroku
+> - Netlify
 > - Técnicas de Responsivo
 > - Git (Controle de Versionamento)
 
